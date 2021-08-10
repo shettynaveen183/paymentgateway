@@ -1,0 +1,52 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-ground {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    opacity: 0.5;
+  }
+
+.image {
+    background: url("../img/success.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 20vh;
+}
+
+.content
+{
+    opacity: 1;
+    height: 80vh;
+    width: 50%;
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+    background-color: rgb(247, 94, 94, 0.5);
+}
+
+.payment-success {
+    color: white;
+}
+
+.redirecting {
+    color: black;
+    text-align: center;
+}
